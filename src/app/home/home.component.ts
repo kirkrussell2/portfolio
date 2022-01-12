@@ -1,3 +1,25 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:bcf7adb915d68323c281892fa0acbcca6bfedb6971652353e9442fb04dfcaa58
-size 717
+import { Component, OnInit } from '@angular/core';
+
+import Typed from 'typed.js';
+@Component({
+  selector: 'app-home',
+  templateUrl: './home.component.html',
+  styleUrls: ['./home.component.css']
+})
+export class HomeComponent implements OnInit {
+
+  constructor() { }
+
+  ngOnInit(): void {
+    var options = {
+      strings: ['','Project Management', 'Web','Software'],
+      typeSpeed: 120,
+      backSpeed: 100,
+      loop: true,
+    };
+    
+    var typed = new Typed('.typed', options);
+    typed.reset(true)
+  }
+
+}
