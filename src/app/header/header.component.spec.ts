@@ -1,25 +1,3 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
-
-import { HeaderComponent } from './header.component';
-
-describe('HeaderComponent', () => {
-  let component: HeaderComponent;
-  let fixture: ComponentFixture<HeaderComponent>;
-
-  beforeEach(async () => {
-    await TestBed.configureTestingModule({
-      declarations: [ HeaderComponent ]
-    })
-    .compileComponents();
-  });
-
-  beforeEach(() => {
-    fixture = TestBed.createComponent(HeaderComponent);
-    component = fixture.componentInstance;
-    fixture.detectChanges();
-  });
-
-  it('should create', () => {
-    expect(component).toBeTruthy();
-  });
-});
+version https://git-lfs.github.com/spec/v1
+oid sha256:b05479160a457f670c9b47a492c8533df7bd73fd039d3c31773fe85cfe66dfb8
+size 626

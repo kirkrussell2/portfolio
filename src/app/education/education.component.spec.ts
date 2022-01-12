@@ -1,25 +1,3 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
-
-import { EducationComponent } from './education.component';
-
-describe('EducationComponent', () => {
-  let component: EducationComponent;
-  let fixture: ComponentFixture<EducationComponent>;
-
-  beforeEach(async () => {
-    await TestBed.configureTestingModule({
-      declarations: [ EducationComponent ]
-    })
-    .compileComponents();
-  });
-
-  beforeEach(() => {
-    fixture = TestBed.createComponent(EducationComponent);
-    component = fixture.componentInstance;
-    fixture.detectChanges();
-  });
-
-  it('should create', () => {
-    expect(component).toBeTruthy();
-  });
-});
+version https://git-lfs.github.com/spec/v1
+oid sha256:35482d3f80b145dbcb143e283ffc7428f373c00083e3e258f1d3eca9cb81fe98
+size 647

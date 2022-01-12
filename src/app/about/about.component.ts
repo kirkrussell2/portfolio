@@ -1,31 +1,3 @@
-import { Component, OnInit } from '@angular/core';
-import * as awesom from '@fortawesome/free-solid-svg-icons';
-
-@Component({
-  selector: 'app-about',
-  templateUrl: './about.component.html',
-  styleUrls: ['./about.component.css']
-})
-export class AboutComponent implements OnInit {
-  mapMarker: any ;
-  building:any;
-  mobile:any;
-  email:any;
-  birthday:any;
-  badge:any;
-  home:any;
-  constructor() {
-    
-   }
-
-  ngOnInit(): void {
-    this.mapMarker=awesom.faMapMarker;
-    this.building=awesom.faCity;
-    this.email=awesom.faMailBulk;
-    this.mobile=awesom.faMobile;
-    this.birthday=awesom.faBirthdayCake;
-    this.badge=awesom.faGraduationCap;
-    this.home=awesom.faLaptopHouse;
-  }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f66e5a56e30709151c0057742b04710270e81d12290424cf42f95318b70a8cbc
+size 697
